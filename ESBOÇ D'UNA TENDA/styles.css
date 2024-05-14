@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    background-color: #af890c;
+    padding: 40px;
+    text-align: center;
+}
+
+.products {
+    background-color: #f798e7;
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-image: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer .social-media a {
+    color: white;
+    margin-right: 10px;
+}
+
+.product .tMasaje{
+    height: 200 px;
+}
